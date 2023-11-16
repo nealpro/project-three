@@ -28,7 +28,11 @@
 						{item.name}
 					</a>
 				{:else}
-					<a href={item.href} class="text-sm font-semibold px-3 leading-6 bg-white text-gray-900">
+					<a
+						href={item.href}
+						class="text-sm font-semibold px-3 leading-6 bg-white text-gray-900"
+						id="item"
+					>
 						{item.name}
 					</a>
 				{/if}
@@ -44,9 +48,17 @@
 	#left-rounder {
 		border-top-left-radius: 20px;
 		border-bottom-left-radius: 20px;
+		border-color: black;
+		border-width: 1px;
 	}
 	#right-rounder {
 		border-top-right-radius: 20px;
 		border-bottom-right-radius: 20px;
+		border-color: black;
+		border-width: 1px;
+	}
+	#item {
+		border-color: black;
+		border-width: 1px;
 	}
 </style>
