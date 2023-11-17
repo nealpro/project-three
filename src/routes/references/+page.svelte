@@ -10,4 +10,10 @@
 	<div class="rounded p-6 bg-white w-4/5 mx-auto border border-black space-y-4">
 		{@html reference}
 	</div>
+	<br />
 {/each}
+<div class="rounded p-1 mx-auto border bg-blue-100">
+	<p class="text-center font-mono">
+		Go back to <a href="/" class="text-blue-800"><u>Article</u></a>
+	</p>
+</div>
