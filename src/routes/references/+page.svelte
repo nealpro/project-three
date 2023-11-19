@@ -13,6 +13,7 @@
 	</div>
 	<br />
 {/each}
+
 <div class="rounded p-1 mx-auto border bg-blue-100">
 	<p class="text-center font-mono">
 		Go back to <a href="/" class="text-blue-800 hover:underline">Article</a>

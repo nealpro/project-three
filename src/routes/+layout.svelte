@@ -4,7 +4,7 @@
 	const menuItems = [
 		{ name: 'Article', href: '/' },
 		{ name: 'References', href: '/references' },
-		{ name: 'About', href: '/about'}
+		{ name: 'About', href: '/about' }
 	];
 </script>
 

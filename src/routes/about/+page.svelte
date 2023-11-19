@@ -6,11 +6,11 @@
 		content is original and written by Neal. The website is built using SvelteKit and TailwindCSS.
 	</p>
 </div>
+
 <br />
+
 <div class="rounded p-1 mx-auto border bg-blue-100">
 	<p class="text-center font-mono">
-		Go back to <a href="/" class="text-blue-800"><u>Article</u></a>
+		Go back to <a href="/" class="text-blue-800 hover:underline">Article</a>
 	</p>
 </div>
-
-<slot />
