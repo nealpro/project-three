@@ -14,7 +14,7 @@
 				{#if index === 0}
 					<a
 						href={item.href}
-						class="text-sm font-semibold px-3 leading-6 bg-white text-gray-900"
+						class="text-sm font-semibold px-3 leading-6 bg-gray-200 text-gray-900"
 						id="left-rounder"
 					>
 						{item.name}
@@ -22,7 +22,7 @@
 				{:else if index === items.length - 1}
 					<a
 						href={item.href}
-						class="text-sm font-semibold px-3 leading-6 bg-white text-gray-900"
+						class="text-sm font-semibold px-3 leading-6 bg-gray-200 text-gray-900"
 						id="right-rounder"
 					>
 						{item.name}
@@ -30,7 +30,7 @@
 				{:else}
 					<a
 						href={item.href}
-						class="text-sm font-semibold px-3 leading-6 bg-white text-gray-900"
+						class="text-sm font-semibold px-3 leading-6 bg-gray-200 text-gray-900"
 						id="item"
 					>
 						{item.name}
@@ -43,7 +43,7 @@
 
 <style lang="postcss">
 	:global(html) {
-		background-color: theme(colors.gray.100);
+		background-image: url('/abstract.png');
 	}
 	#left-rounder {
 		border-top-left-radius: 20px;

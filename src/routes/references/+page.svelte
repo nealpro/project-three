@@ -5,10 +5,10 @@
 	];
 </script>
 
-<h1 class="text-4xl font-bold text-center p-6">References</h1>
+<h1 class="text-4xl font-bold text-center bg-black bg-opacity-50 text-gray-100 p-6">References</h1>
 
 {#each references as reference}
-	<div class="rounded p-6 bg-white w-4/5 mx-auto border border-black space-y-4">
+	<div class="rounded p-6 bg-gray-200 w-4/5 mx-auto border border-black space-y-4">
 		{@html reference}
 	</div>
 	<br />
