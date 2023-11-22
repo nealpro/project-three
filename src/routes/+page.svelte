@@ -1,4 +1,12 @@
 <script>
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		if (window.innerWidth < 768) {
+			alert('This website is not meant for mobile. Would you like to proceed?');
+		}
+	});
+
 	const content1 = [
 		"The Kobayashi Maru is a fictional exercise in the <i>Star Trek</i> universe, first introduced in the film <i>Star Trek II: The Wrath of Khan</i> (1982) and gained its popularity from that movie; however, it has appeared several times in the <i>Star Trek</i> franchise since then. It's a training exercise for cadets at the <i>Starfleet Academy</i>, designed to be a no-win scenario. The purpose of the test is to evaluate a cadet's character and command capabilities when faced with an impossible situation.",
 		"In the scenario, a cadet is placed in command of a starship and receives a distress signal from the Kobayashi Maru, a civilian vessel stranded in the <i>Klingon Neutral Zone</i>. Any attempt to rescue the ship violates the <i>Neutral Zone</i> treaty and invites Klingon hostility, but ignoring the distress call contradicts Starfleet's humanitarian mission. The situation is engineered to be unwinnable, ensuring the cadet's failure.",
@@ -12,7 +20,8 @@
 	];
 
 	const content2_2 = [
-		'"The Kobayashi Maru scenario has become a valuable tool for experiential learning, especially in the context of nonprofit governance. An article by Bruni-Bossio and Willness (2016) says, "The Kobayashi Maru Meeting is a simulation with high physical and psychological fidelity—that is, one that closely resembles the \'look and feel\' of real-world board governance." The authors\' innovative approach outlines the versatility of the Kobayashi Maru scenario as an educational tool. Bruni-Bossio and Willness successfully adapted the Kobayashi Maru scenario to create a board meeting simulation that mimics the high stakes and complex dynamics of real-world governance. The simulation incorporates principles from acting literature, theories, and research in training and development to encourage participants to engage with sensitive topics that challenge the values of the trainees. "Results from multisource, multimethod data suggest that the simulation enhanced students\' decision making, critical thinking, and communication skills, as well as their ability to deal with their own and others\' reactions in intense circumstances." (Bruni-Bossio & Willness, 2016)'
+		'"The Kobayashi Maru scenario has become a valuable tool for experiential learning, especially in the context of nonprofit governance. An article by Bruni-Bossio and Willness (2016) says, "The Kobayashi Maru Meeting is a simulation with high physical and psychological fidelity—that is, one that closely resembles the \'look and feel\' of real-world board governance." The authors\' innovative approach outlines the versatility of the Kobayashi Maru scenario as an educational tool. Bruni-Bossio and Willness successfully adapted the Kobayashi Maru scenario to create a board meeting simulation that mimics the high stakes and complex dynamics of real-world governance. The simulation incorporates principles from acting literature, theories, and research in training and development to encourage participants to engage with sensitive topics that challenge the values of the trainees. "Results from multisource, multimethod data suggest that the simulation enhanced students\' decision making, critical thinking, and communication skills, as well as their ability to deal with their own and others\' reactions in intense circumstances." (Bruni-Bossio & Willness, 2016)',
+		''
 	];
 </script>
 
