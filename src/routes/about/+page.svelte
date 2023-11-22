@@ -9,6 +9,17 @@
 
 <br />
 
+<div class="rounded p-6 bg-gray-200 w-4/5 mx-auto border border-black">
+	<p>
+		The background image in this article was generated using DALL·E 3 by OpenAI (2023). <a
+			href="/references"
+			class="text-blue-800 hover:underline">Go to references.</a
+		>
+	</p>
+</div>
+
+<br />
+
 <div class="rounded p-1 mx-auto border bg-blue-100">
 	<p class="text-center font-mono">
 		Go back to <a href="/" class="text-blue-800 hover:underline">Article</a>

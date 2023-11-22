@@ -2,7 +2,8 @@
 	const content1 = [
 		"The Kobayashi Maru is a fictional exercise in the <i>Star Trek</i> universe, first introduced in the film <i>Star Trek II: The Wrath of Khan</i> (1982) and gained its popularity from that movie; however, it has appeared several times in the <i>Star Trek</i> franchise since then. It's a training exercise for cadets at the <i>Starfleet Academy</i>, designed to be a no-win scenario. The purpose of the test is to evaluate a cadet's character and command capabilities when faced with an impossible situation.",
 		"In the scenario, a cadet is placed in command of a starship and receives a distress signal from the Kobayashi Maru, a civilian vessel stranded in the <i>Klingon Neutral Zone</i>. Any attempt to rescue the ship violates the <i>Neutral Zone</i> treaty and invites Klingon hostility, but ignoring the distress call contradicts Starfleet's humanitarian mission. The situation is engineered to be unwinnable, ensuring the cadet's failure.",
-		'The Kobayashi Maru gained significant popularity and cultural significance because of its association with the character James T. Kirk. Kirk is famously known for being the only person to have ever "beaten" the test by surreptitiously reprogramming the simulation so that a rescue was possible, thus demonstrating his aversion to accepting defeat. This act showcased his character\'s ingenuity, resourcefulness, and refusal to accept no-win scenarios, traits that became central to his identity in the <i>Star Trek</i> franchise.'
+		'The Kobayashi Maru gained significant popularity and cultural significance because of its association with the character James T. Kirk. Kirk is famously known for being the only person to have ever "beaten" the test by surreptitiously reprogramming the simulation so that a rescue was possible, thus demonstrating his aversion to accepting defeat. This act showcased his character\'s ingenuity, resourcefulness, and refusal to accept no-win scenarios, traits that became central to his identity in the <i>Star Trek</i> franchise.',
+		'<img src="starship.jpg" class="mx-auto" /><br><p class="text-center">Class III Neutronic Fuel Carrier (The Kobayashi Maru) by Thomas Marrone (n.d.).</p>'
 	];
 
 	const content2_1 = [
@@ -16,7 +17,7 @@
 </script>
 
 <h1 class="text-4xl font-bold text-center bg-black bg-opacity-50 text-gray-100 p-6">
-	Project Three: Kobayashi Maru
+	Project Three: Kobayashi Maru Across Media and Academia
 </h1>
 
 <h2 class="text-3xl font-semibold text-center bg-black bg-opacity-50 text-gray-100 p-4">
