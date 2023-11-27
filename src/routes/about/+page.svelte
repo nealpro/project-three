@@ -3,7 +3,12 @@
 <div class="rounded p-6 bg-gray-200 w-4/5 mx-auto border border-black">
 	<p>
 		This website is dedicated to Neal's Project 3 of the ENG107.2: First-Year Composition class. All
-		content is original and written by Neal. The website is built using SvelteKit and TailwindCSS.
+		content is original and written by Neal. The website is built using SvelteKit and TailwindCSS. <br
+		/>
+		The source code for this website can be found at
+		<a href="https://github.com/nealpro/project-three" class="text-blue-800 hover:underline"
+			>https://github.com/nealpro/project-three</a
+		>.
 	</p>
 </div>
 
