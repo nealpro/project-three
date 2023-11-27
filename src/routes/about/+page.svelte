@@ -9,6 +9,10 @@
 		<a href="https://github.com/nealpro/project-three" class="text-blue-800 hover:underline"
 			>https://github.com/nealpro/project-three</a
 		>.
+		<br />
+		Please send feedback at
+		<a href="mailto:nealnpatel@asu.edu" class="text-blue-800 hover:underline">nealnpatel@asu.edu</a
+		>.
 	</p>
 </div>
 
