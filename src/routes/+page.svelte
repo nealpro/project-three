@@ -20,8 +20,8 @@
 	];
 
 	const content2_2 = [
-		'"The Kobayashi Maru scenario has become a valuable tool for experiential learning, especially in the context of nonprofit governance. An article by Bruni-Bossio and Willness (2016) says, "The Kobayashi Maru Meeting is a simulation with high physical and psychological fidelity—that is, one that closely resembles the \'look and feel\' of real-world board governance." The authors\' innovative approach outlines the versatility of the Kobayashi Maru scenario as an educational tool. Bruni-Bossio and Willness successfully adapted the Kobayashi Maru scenario to create a board meeting simulation that mimics the high stakes and complex dynamics of real-world governance. The simulation incorporates principles from acting literature, theories, and research in training and development to encourage participants to engage with sensitive topics that challenge the values of the trainees. "Results from multisource, multimethod data suggest that the simulation enhanced students\' decision making, critical thinking, and communication skills, as well as their ability to deal with their own and others\' reactions in intense circumstances." (Bruni-Bossio & Willness, 2016)',
-		''
+		'"The Kobayashi Maru scenario has become a valuable tool for experiential learning, especially in the context of nonprofit governance. An article by Bruni-Bossio and Willness (2016) says, "The Kobayashi Maru Meeting is a simulation with high physical and psychological fidelity—that is, one that closely resembles the \'look and feel\' of real-world board governance." The authors\' innovative approach outlines the versatility of the Kobayashi Maru scenario as an educational tool. Bruni-Bossio and Willness successfully adapted the Kobayashi Maru scenario to create a board meeting simulation that mimics the high stakes and complex dynamics of real-world governance. The simulation incorporates principles from acting literature, theories, and research in training and development to encourage participants to engage with sensitive topics that challenge the values of the trainees.',
+		"As indicated in an article by Bruni-Bossio & Willness, (2016) “results from multisource, multimethod data suggest that the simulation enhanced students' decision making, critical thinking, and communication skills, as well as their ability to deal with their own and others' reactions in intense circumstances.” It's evident that the Kobayashi Maru scenario is a good educational tool."
 	];
 </script>
 
@@ -59,11 +59,14 @@
 	Kobayashi Maru in media
 </h3>
 
-<div class="rounded p-6 bg-gray-200 w-4/5 mx-auto border border-black">
-	<p>
-		{@html content2_2}
-	</p>
-</div>
+{#each content2_2 as item}
+	<div class="rounded p-6 bg-gray-200 w-4/5 mx-auto border border-black">
+		<p>
+			{@html item}
+		</p>
+	</div>
+	<br />
+{/each}
 
 <div class="h-screen"></div>
 
