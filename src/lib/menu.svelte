@@ -14,7 +14,7 @@
 				{#if index === 0}
 					<a
 						href={item.href}
-						class="font-semibold px-6 py-2 leading-6 bg-gray-200 text-gray-900 text-xl"
+						class="font-semibold px-6 py-2 leading-6 bg-white text-gray-900 text-xl"
 						id="left-rounder"
 					>
 						{item.name}
@@ -22,7 +22,7 @@
 				{:else if index === items.length - 1}
 					<a
 						href={item.href}
-						class="font-semibold px-6 py-2 leading-6 bg-gray-200 text-gray-900 text-xl"
+						class="font-semibold px-6 py-2 leading-6 bg-white text-gray-900 text-xl"
 						id="right-rounder"
 					>
 						{item.name}
@@ -30,7 +30,7 @@
 				{:else}
 					<a
 						href={item.href}
-						class="font-semibold px-6 py-2 leading-6 bg-gray-200 text-gray-900 text-xl"
+						class="font-semibold px-6 py-2 leading-6 bg-white text-gray-900 text-xl"
 						id="item"
 					>
 						{item.name}

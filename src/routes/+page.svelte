@@ -23,7 +23,7 @@
 	];
 </script>
 
-<h1 class="text-4xl font-bold text-center bg-black bg-opacity-50 text-gray-100 p-6">
+<h1 class="text-4xl font-bold text-center bg-black bg-opacity-50 text-white p-6">
 	Project Three: Kobayashi Maru Across Media and Academia
 </h1>
 
@@ -31,7 +31,7 @@
 	<h2 class="text-3xl font-semibold text-white text-center py-4">What is Kobayashi Maru?</h2>
 
 	{#each content1 as item}
-		<div class="rounded p-6 bg-gray-200 w-full mx-auto border border-black">
+		<div class="rounded p-6 bg-white w-full mx-auto border border-black">
 			<p>
 				{@html item}
 			</p>
@@ -45,7 +45,7 @@
 <div class="w-4/5 mx-auto bg-gray-500 rounded-3xl border-black border-8 px-6">
 	<h2 class="text-3xl font-semibold text-white text-center py-4">Kobayashi Maru in pop culture</h2>
 	{#each content2_1 as item}
-		<div class="rounded p-6 bg-gray-200 w-full mx-auto border border-black">
+		<div class="rounded p-6 bg-white w-full mx-auto border border-black">
 			<p>
 				{@html item}
 			</p>
@@ -53,10 +53,10 @@
 		<br />
 	{/each}
 
-	<h2 class="text-2xl text-white text-center py-3">Kobayashi Maru in pop culture</h2>
+	<h3 class="text-2xl text-white text-center py-3">Kobayashi Maru in academia</h3>
 
 	{#each content2_2 as item}
-		<div class="rounded p-6 bg-gray-200 w-full mx-auto border border-black">
+		<div class="rounded p-6 bg-white w-full mx-auto border border-black">
 			<p>
 				{@html item}
 			</p>
@@ -64,17 +64,6 @@
 		<br />
 	{/each}
 </div>
-
-<div class="h-screen"></div>
-
-{#each content2_2 as item}
-	<div class="rounded p-6 bg-gray-200 w-4/5 mx-auto border border-black">
-		<p>
-			{@html item}
-		</p>
-	</div>
-	<br />
-{/each}
 
 <div class="h-screen"></div>
 
