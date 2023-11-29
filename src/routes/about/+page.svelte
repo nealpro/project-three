@@ -34,3 +34,5 @@
 		Go back to <a href="/" class="text-blue-800 hover:underline">Article</a>
 	</p>
 </div>
+
+<div class="h-screen"></div>
