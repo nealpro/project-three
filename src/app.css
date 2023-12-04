@@ -7,4 +7,5 @@
     src: url('/Exo.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    /* initial-letter: 6; */
 }

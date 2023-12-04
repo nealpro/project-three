@@ -3,7 +3,7 @@
 
 	onMount(() => {
 		if (window.innerWidth < 768) {
-			alert('This website is not meant for mobile. Would you like to proceed?');
+			alert('This website is not meant for narrow screens or mobile. Would you like to proceed?');
 		}
 	});
 
@@ -79,7 +79,57 @@
 			first meme appeals to an audience that need not be familiar with the story, but this audience
 			aligns with the quote underneath. The second meme, on the other hand, is more specific to the
 			movie. It appeals to an audience that is not only familiar with the story and the characters,
-			but also familiar with the <i>Konami Code</i>.
+			but also familiar with the <i>Konami Code</i>. <br /> <br /> It is sometimes used to comment humorously
+			on life's difficult situations or to illustrate the need for unconventional solutions, akin to
+			Captain Kirk's approach in the movie. This adaptability makes the Kobayashi Maru a relatable and
+			widely recognized meme, appealing to a diverse audience. It's particularly effective in drawing
+			parallels between the fictional test's no-win scenario and real-life situations where traditional
+			solutions seem inadequate. Thus, the Kobayashi Maru serves as a metaphor for life's challenges
+			and resonates with both Star Trek fans and those unfamiliar with the franchise, making an impact
+			in meme culture.
+		</p>
+	</div>
+	<br />
+
+	<h3 class="text-2xl text-white text-center pb-3">Kobayashi Maru in media</h3>
+	<div class="rounded p-6 bg-white w-full mx-auto border border-black">
+		A blog post by Eisenberg (2018) applies the <i>Kobayashi Maru</i> scenario to a real-world
+		situation. The author states that students often run into situations where they are faced with a
+		problem in their schooling with no clear solution. He suggested that a lot of those problems
+		could be solved by learning on an online platform. The author says, "Often with education, it
+		seems that schools are quick to label something as 'no-win' before considering all options."
+		(Eisenberg, 2018) The author is the CEO of a online education technology provider based in
+		Israel at the time of writing the blog. It is worth noting that the article is written on the
+		Times of Israel and that the article is using the Kobayashi Maru as an analogy, so it can be
+		said that the pop culture artifact has crossed national boundaries.
+		<br /> <br />
+
+		Another article discusses the use of Kobayashi Maru in ethical leadership. In the article,
+		Stemdewel (2015) writes, "I think the optimism embodied in Kirk's rejection of no-win scenarios
+		is the sort of thing that can motivate creative thinking about how to do a better job sharing a
+		universe (which, really, is what ethics is about)." Fans of James T. Kirk value his optimism in
+		this context, and it opens a discussion about the importance of optimism in leadership (and,
+		perhaps, in life by extension.) Forbes is a popular American business magazine, and it has a
+		global audience. The ideas about leadership in this article may have influenced many
+		entrepreneurs, professionals and exercutives around the world.
+	</div>
+</div>
+<br />
+<div class="w-4/5 mx-auto bg-gray-500 rounded-3xl border-black border-8 p-6">
+	<h2 class="text-3xl font-semibold text-white text-center pb-4">To conclude</h2>
+	<div class="rounded p-6 bg-white w-full mx-auto border border-black">
+		<p>
+			The Kobayashi Maru, originally from the "Star Trek" series, has expanded its influence beyond
+			its initial role as a challenging test within a fictional narrative. Its presence in diverse
+			areas such as media, education, governance, and meme culture shows its wide-ranging impact.
+			This scenario has become a practical tool in complex situations where conventional solutions
+			fall short, encouraging creative and unconventional problem-solving approaches. It has become
+			a tool for examining ethical dilemmas and leadership strategies, especially in situations
+			marked by high pressure and uncertainty. The Kobayashi Maru's evolution into an educational
+			tool and a metaphor for difficult real-world challenges reflects its enduring relevance. Its
+			journey from a specific element in a sci-fi story to a concept that resonates in various
+			spheres demonstrates its ability to provide meaningful insights into life's complexities, both
+			in imagination and reality.
 		</p>
 	</div>
 </div>
